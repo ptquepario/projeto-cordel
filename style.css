@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Sriracha&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+:root{
+    --font1: 'verdana', geneva, tahoma, sans-serif;
+    --font2: 'Passion One', cursive;
+    --font3: 'Sriracha', cursive;
+
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: var(--font1);
+}
+
+body{
+    margin: 0px;
+}
+
+header > h1{
+    margin: 0px;
+    padding: 50px;
+    padding-bottom: 0px;
+    font-size: 10vw;
+    font-family: var(--font2);
+}
+
+.autor{
+    padding: 20px;
+    margin-top: -50px;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+a{
+    font-weight: bolder;
+    color: white;
+    text-decoration: none;
+    
+}
+
+section{
+    background-size: cover;
+    font-size: 3.5vw;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-family: var(--font3)
+    
+}
+
+section.normal{
+    background-color: white;
+    color: black;
+}
+
+section.imagem{
+    background-color: rgb(75, 75, 75);
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.315);
+    background-attachment: fixed;
+}
+
+section.imagem > p{
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.408);
+    text-shadow: 1px 1px 10px black;
+}
+
+section#img1{
+    background-image: url('../desafio12/imagens/background001.jpg');
+    background-position: right center;
+    background-size: cover;
+}
+section#img2{
+    background-image: url('../desafio12/imagens/background002.jpg');
+    background-position: right center;
+   
+}
+section#img3{
+    background-image: url('../desafio12/imagens/2017-10-17-05-57-22.jpg');
+    background-position: right center;
+    
+}
+
+footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
